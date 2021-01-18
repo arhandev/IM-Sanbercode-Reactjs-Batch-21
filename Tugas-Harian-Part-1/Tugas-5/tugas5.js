@@ -122,4 +122,3 @@ tambahFilm(dataFilm, obj1)
 tambahFilm(dataFilm, obj2)
 tambahFilm(dataFilm, obj3)
 console.log(dataFilm)
-

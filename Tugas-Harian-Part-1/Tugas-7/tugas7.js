@@ -67,12 +67,10 @@ console.log()
 
 // Soal 2
 class Clock{
-    constructor(input){
-        var {template} = input
+    constructor({template}){
         this._template = template
-        this.timer;
         this.render = this.render.bind(this)
-        
+        this.timer
     }
 
     render() {

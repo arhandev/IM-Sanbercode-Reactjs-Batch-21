@@ -1,0 +1,43 @@
+.App{
+  margin: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  width: 500px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.title{
+  text-align: center;
+}
+
+.name{
+  margin-right: 20px;
+  font-size: 1.2rem;
+}
+
+.item{
+  width: 265px;
+  margin: 20px 0;
+}
+
+.option{
+  float: right;
+  font-size: 1.2rem;
+}
+
+.item-label{
+  display: inline-block;
+  margin-top: 95px;
+  font-size: 1.2rem;
+}
+
+.submitButton{
+  border-radius: 30px;
+  font-size: large;
+  background-color: whitesmoke;
+  border: 2px solid black;
+  padding: 2px 7px;
+}
+.label-name{
+  width: 40%;
+}

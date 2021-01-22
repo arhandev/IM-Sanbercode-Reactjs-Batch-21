@@ -1,0 +1,28 @@
+.tugas10{
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    width: 800px;
+}
+.tableItem{
+    width: 800px;
+}
+table{
+    border: 2px solid black;
+}
+
+.title{
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid white;
+}
+
+th{
+    background-color: rgb(160, 160, 160);
+    font-weight: bold;
+}
+td{
+    background-color: rgb(250, 119, 72);
+}

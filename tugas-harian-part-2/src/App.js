@@ -1,48 +1,19 @@
 import './App.css'
+import Tugas9 from './Tugas-9/Tugas9'
+import Tugas10 from './Tugas-10/Tugas10'
+
 function App() {
+  let dataHargaBuah = [
+    {nama: "Semangka", harga: 10000, berat: 1000},
+    {nama: "Anggur", harga: 40000, berat: 500},
+    {nama: "Strawberry", harga: 30000, berat: 400},
+    {nama: "Jeruk", harga: 30000, berat: 1000},
+    {nama: "Mangga", harga: 30000, berat: 500}
+  ]
   return (
     <div className="App">
-      <form>
-      <h1 className="title">Form Pembelian Buah</h1>
-      <div>
-        <label className="name">
-          <b>Nama Pelanggan</b>
-        </label>
-        <span>
-          <input type="text" className="label-name" id="" />
-        </span>
-        <br/>
-      </div>
-      <div className="item">
-        <label className="item-label">
-          <b>
-            Daftar Item
-          </b>
-        </label>
-        <span>
-          <div className="option">
-            <input type="checkbox" id="item1" name="item1" value="Semangka"/>
-            <label for="item1"> Semangka</label>
-            <br/>
-            <input type="checkbox" id="item2" name="item2" value="Jeruk"/>
-            <label for="item2"> Jeruk</label>
-            <br/>
-            <input type="checkbox" id="item3" name="item3" value="Nanas"/>
-            <label for="item3"> Nanas</label>
-            <br/>
-            <input type="checkbox" id="item4" name="item4" value="Salak"/>
-            <label for="item4"> Salak</label>
-            <br/>
-            <input type="checkbox" id="item5" name="item5" value="Anggur"/>
-            <label for="item5"> Anggur</label>
-            <br/>
-            </div>
-          </span>
-      </div>
-      <button className="submitButton">
-        Kirim
-      </button>
-      </form>
+      <Tugas9/>
+      <Tugas10 buah={dataHargaBuah}/>
     </div>
   );
 }

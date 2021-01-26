@@ -178,20 +178,20 @@ class Tugas12 extends Component {
                     }
                 </table>
                 </div>
+                <h1 className="title">Form Daftar Harga Buah</h1>
                 <div className="formBuah">
-                    <h1 className="title">Form Daftar Harga Buah</h1>
                     <form onSubmit={this.handleSubmit}>
                         <div className="div-input-form">
                             <label>
                                 Nama:
                             </label>
-                                <input className="input-form" onChange={this.handleChange} type="text" value={this.state.nama} name="nama"/>
+                                <input className="input-form" onChange={this.handleChange} type="text" value={this.state.nama} placeholder="Nama" name="nama"/>
                         </div>
                         <div className="div-input-form">
                             <label>
                                 Harga:
                             </label>
-                                <input className="input-form" onChange={this.handleChange} type="text" value={this.state.harga} name="harga"/>
+                                <input className="input-form" onChange={this.handleChange} type="text" value={this.state.harga} placeholder="Harga" name="harga"/>
                         </div>
                         <div className="div-input-form">
                             <label>

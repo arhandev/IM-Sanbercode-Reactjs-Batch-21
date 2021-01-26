@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import './tugas11.css'
+// import './tugas11.css'
 
 class Tugas11 extends Component{
   constructor(props){

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './tugas10.css'
+// import './tugas10.css'
 
 export class Tugas10 extends Component {
     render() {

@@ -85,20 +85,6 @@ export default function Tugas13() {
          console.log(editIndex)
      }
 
-    // useEffect(() => {
-    //     axios
-    //     .get(
-    //         "http://backendexample.sanbercloud.com/api/fruits"
-    //     )
-    //     .then((response) => {
-    //         setDaftarBuah(response.data)
-    //         console.log(daftarBuah)
-    //     })
-    //     .catch((error) => {
-    //         setError(error)
-    //     })
-    // }, [])
-
     return ( 
         <div className="tugas13">
             <div className="tableOne">

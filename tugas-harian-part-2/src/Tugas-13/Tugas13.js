@@ -88,6 +88,7 @@ export default function Tugas13() {
     return ( 
         <div className="tugas13">
             <div className="tableOne">
+                <h1>Tugas 13</h1>
                 <h1>Tabel Harga Buah</h1>
                 <table>
                     <thead>
@@ -131,7 +132,7 @@ export default function Tugas13() {
                     }
                 </table>
                 </div>
-                <div className="tableTwo">
+                <div className="tableTwo-tugas13">
                 <h1>Daftar Harga Buah</h1>
                 <table>
                     <thead>
@@ -171,10 +172,10 @@ export default function Tugas13() {
                                             {item.weight/1000} kg
                                         </td>
                                         <td>
-                                            <button className="button-click" onClick={() => editData(index, item.id)}>
+                                            <button className="button-click-tugas13" onClick={() => editData(index, item.id)}>
                                                 Edit
                                             </button>
-                                            <button className="button-click" onClick={() => deleteData(item.id)}>
+                                            <button className="button-click-tugas13" onClick={() => deleteData(item.id)}>
                                                 Delete
                                             </button>
                                         </td>
@@ -186,28 +187,28 @@ export default function Tugas13() {
                     }
                 </table>
                 </div>
-                <h1 className="title">Form Daftar Harga Buah</h1>
-                <div className="formBuah">
+                <h1 className="title-tugas13">Form Daftar Harga Buah</h1>
+                <div className="formBuah-tugas13">
                     <form onSubmit={submitData}>
-                        <div className="div-input-form">
+                        <div className="div-input-form-tugas13">
                             <label>
                                 Nama:
                             </label>
-                                <input className="input-form" onChange={event => {setName(event.target.value);}} type="text" value={name} placeholder="Nama" name="nama"/>
+                                <input className="input-form-tugas13" onChange={event => {setName(event.target.value);}} type="text" value={name} placeholder="Nama" name="nama"/>
                         </div>
-                        <div className="div-input-form">
+                        <div className="div-input-form-tugas13">
                             <label>
                                 Harga:
                             </label>
-                                <input className="input-form" onChange={event => {setPrice(event.target.value);}} type="text" value={price} placeholder="Harga" name="harga"/>
+                                <input className="input-form-tugas13" onChange={event => {setPrice(event.target.value);}} type="text" value={price} placeholder="Harga" name="harga"/>
                         </div>
-                        <div className="div-input-form">
+                        <div className="div-input-form-tugas13">
                             <label>
                                 Berat (dalam gram):
                             </label>
-                                <input className="input-form" onChange={event => {setWeight(event.target.value);}} type="text" value={weight} name="berat" placeholder="0"/>
+                                <input className="input-form-tugas13" onChange={event => {setWeight(event.target.value);}} type="text" value={weight} name="berat" placeholder="0"/>
                         </div>
-                        <button className="button-click buttform" type="submit">
+                        <button className="button-click-tugas13 buttform" type="submit">
                             submit
                         </button>
                     </form>

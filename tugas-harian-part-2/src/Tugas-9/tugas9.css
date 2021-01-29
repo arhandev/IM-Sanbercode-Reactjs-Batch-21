@@ -6,38 +6,38 @@
     width: 500px;
     font-family: 'Times New Roman', Times, serif;
   }
-  .title{
+  .title-tugas9{
     text-align: center;
   }
   
-  .name{
+  .name-tugas9{
     margin-right: 20px;
     font-size: 1.2rem;
   }
   
-  .item{
+  .item-tugas9{
     width: 265px;
     margin: 20px 0;
   }
   
-  .option{
+  .option-tugas9{
     float: right;
     font-size: 1.2rem;
   }
   
-  .item-label{
+  .item-label-tugas9{
     display: inline-block;
     margin-top: 95px;
     font-size: 1.2rem;
   }
   
-  .submitButton{
+  .submitButton-tugas9{
     border-radius: 30px;
     font-size: large;
     background-color: whitesmoke;
     border: 2px solid black;
     padding: 2px 7px;
   }
-  .label-name{
+  .label-name-tugas9{
     width: 40%;
   }

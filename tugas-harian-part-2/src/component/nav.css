@@ -1,0 +1,22 @@
+.Nav{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid grey;
+}
+
+.NavUl{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+.NavLi{
+    text-decoration: none;
+    margin: 0 10px;
+    margin-top: 12px;
+    
+}
+.Nav a{
+    text-decoration: none;
+}

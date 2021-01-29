@@ -7,41 +7,41 @@
 
     
 }
-.tableTwo{
+.tableTwo-tugas13{
     text-align: center;
 }
 
-.tableOne{
+.tugas13 .tableOne{
     text-align: center;
     
 }
 
-table{
+.tugas13 table{
     border: 2px solid black;
     width: 800px;
     text-align: center;
 }
 
-.title{
+.title-tugas13{
     text-align: center;
 }
 
 .tableOne th, td {
     border: 2px solid black;
 }
-.tableTwo th, td {
+.tableTwo-tugas13 th, td {
     border: 2px solid black;
 }
 
-.tableOne th{
+.tugas13 .tableOne th{
     background-color: rgb(160, 160, 160);
     font-weight: bold;
 }
-.tableOne td{
+.tugas13 .tableOne td{
     background-color: rgb(250, 119, 72);
 }
 
-.button-click{
+.button-click-tugas13{
     margin: 5px;
     transition-duration: 0.2s;
     cursor: pointer;
@@ -52,12 +52,12 @@ table{
 
 }
 
-.button-click:hover{
+.button-click-tugas13:hover{
     background-color: blue;
     color: white;
 }
 
-.formBuah{
+.formBuah-tugas13{
     border: 3px solid black;
     margin: 40px;
     padding: 40px;
@@ -72,19 +72,19 @@ table{
     margin-top: 30px;
 }
 
-.title{
+.title-tugas13{
     margin-top: 30px;
     margin-bottom: -5px;
     text-align: center;
 }
 
-.input-form{
+.input-form-tugas13{
     float: right;
     border: 2px solid black;
     width: 40%;
     padding-left: 10px;
 }
 
-.div-input-form{
+.div-input-form-tugas13{
     margin: 20px 0;
 }

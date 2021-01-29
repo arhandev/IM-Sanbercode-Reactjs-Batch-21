@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
-// import './tugas10.css'
+import './tugas10.css'
 
 export class Tugas10 extends Component {
     render() {
         return (
             <div className="tugas10">
-                <h1 className="title">Tabel Harga Buah</h1>
-                <table className="tableItem">
+                <h1 className="title-tugas10">Tugas 10</h1>
+                <h1 className="title-tugas10">Tabel Harga Buah</h1>
+                <table className="tableItem-tugas10">
                     <tr>
                         <th>
                             Nama

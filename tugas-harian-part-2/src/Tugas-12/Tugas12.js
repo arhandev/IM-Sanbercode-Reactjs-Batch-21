@@ -81,7 +81,8 @@ class Tugas12 extends Component {
     render() {
         return (
             <div className="tugas12">
-                <div className="tableOne">
+                <div className="tableOne-tugas12">
+                <h1>Tugas 12</h1>
                 <h1>Tabel Harga Buah</h1>
                 <table>
                     <thead>
@@ -124,7 +125,7 @@ class Tugas12 extends Component {
                     }
                 </table>
                 </div>
-                <div className="tableTwo">
+                <div className="tableTwo-tugas12">
                 <h1>Daftar Harga Buah</h1>
                 <table>
                     <thead>
@@ -164,10 +165,10 @@ class Tugas12 extends Component {
                                             {item.berat/1000} kg
                                         </td>
                                         <td>
-                                            <button className="button-click" onClick={() => this.handleEdit(index)}>
+                                            <button className="button-click-tugas12" onClick={() => this.handleEdit(index)}>
                                                 Edit
                                             </button>
-                                            <button className="button-click" onClick={() => this.handleDelete(index)}>
+                                            <button className="button-click-tugas12" onClick={() => this.handleDelete(index)}>
                                                 Delete
                                             </button>
                                         </td>
@@ -178,28 +179,28 @@ class Tugas12 extends Component {
                     }
                 </table>
                 </div>
-                <h1 className="title">Form Daftar Harga Buah</h1>
-                <div className="formBuah">
+                <h1 className="title-tugas12">Form Daftar Harga Buah</h1>
+                <div className="formBuah-tugas12">
                     <form onSubmit={this.handleSubmit}>
-                        <div className="div-input-form">
+                        <div className="div-input-form-tugas12">
                             <label>
                                 Nama:
                             </label>
-                                <input className="input-form" onChange={this.handleChange} type="text" value={this.state.nama} placeholder="Nama" name="nama"/>
+                                <input className="input-form-tugas12" onChange={this.handleChange} type="text" value={this.state.nama} placeholder="Nama" name="nama"/>
                         </div>
-                        <div className="div-input-form">
+                        <div className="div-input-form-tugas12">
                             <label>
                                 Harga:
                             </label>
-                                <input className="input-form" onChange={this.handleChange} type="text" value={this.state.harga} placeholder="Harga" name="harga"/>
+                                <input className="input-form-tugas12" onChange={this.handleChange} type="text" value={this.state.harga} placeholder="Harga" name="harga"/>
                         </div>
-                        <div className="div-input-form">
+                        <div className="div-input-form-tugas12">
                             <label>
                                 Berat (dalam gram):
                             </label>
-                                <input className="input-form" onChange={this.handleChange} type="text" value={this.state.berat} name="berat" placeholder="0"/>
+                                <input className="input-form-tugas12" onChange={this.handleChange} type="text" value={this.state.berat} name="berat" placeholder="0"/>
                         </div>
-                        <button className="button-click buttform" type="submit">
+                        <button className="button-click buttform-tugas12" type="submit">
                             submit
                         </button>
                     </form>

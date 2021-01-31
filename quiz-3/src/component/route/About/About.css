@@ -1,0 +1,18 @@
+.About{
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+}
+
+.core-about{
+    width: 95%;
+    border: 2px solid grey;
+    margin: auto;
+    padding: 10px;
+}
+
+.Title-About{
+    text-align: center;
+}

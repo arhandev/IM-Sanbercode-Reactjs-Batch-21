@@ -1,0 +1,13 @@
+.Home{
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+}
+
+
+.item-home{
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,23 @@
+.form-add-movie{
+    height: 100vh;
+    width: 40rem;
+    margin: auto
+}
+
+.form-movie{
+    background-color: white;
+    margin: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    box-shadow: 0 2px 8px 0 black;
+
+}
+
+.div-input-add-form {
+margin: 1rem 0;
+}
+.div-input-add-form input{
+float: right;
+}

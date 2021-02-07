@@ -1,0 +1,24 @@
+.authen{
+    margin-top: 70px;
+    background-image: url("Image-background.png");
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: 100%;
+}
+
+.login-form{
+    background-color: #212121;
+    display: flex;
+    flex-direction: row;
+    width: 40rem;
+    margin: auto;
+}
+
+.label-form-login{
+    justify-content: space-between;
+
+}
+
+.label-form-login input{
+    float: right;
+}

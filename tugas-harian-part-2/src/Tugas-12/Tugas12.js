@@ -75,7 +75,6 @@ class Tugas12 extends Component {
         })
         console.log(this.state.daftarBuah[this.state.daftarBuah.length-1])
         }
-        
       }    
 
     render() {

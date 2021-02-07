@@ -1,0 +1,28 @@
+.home{
+    margin-top: 70px;
+}
+
+.home-jumbotron{
+    background-color: #424242;
+    height: 30rem;
+}
+
+.movie-list{
+    margin: 40px;
+}
+
+.movie-section{
+    display: flex;
+    flex-direction: row;
+}
+.movie-list img{
+    height: 20rem;
+}
+
+.movie-item{
+    margin-right: 40px;
+}
+
+.movie-item img:hover{
+    height: 30rem;
+}

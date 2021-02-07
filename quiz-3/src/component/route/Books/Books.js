@@ -143,7 +143,7 @@ function Books() {
                 {
                     daftarBuku ?
                     hasilDataBuku?
-                    hasilDataBuku.map((item, index) =>{
+                    hasilDataBuku.map((item, index) =>(
                         <tbody >
                             <tr>
                                 <td>
@@ -177,7 +177,7 @@ function Books() {
                                 </td>
                             </tr>      
                         </tbody>
-                    }):
+                    )):
                     daftarBuku.map((item, index) =>(
                         <React.Fragment key={index}>
                         <tbody >

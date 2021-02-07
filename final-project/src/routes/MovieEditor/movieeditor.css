@@ -1,0 +1,54 @@
+.filter{
+    display: flex;
+    padding: 2rem;
+    width: 30rem;
+    margin: auto;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 2px 8px 0 black;
+}
+
+.div-filter{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.div-filter-input{
+    margin-left: 8rem;
+}
+
+.util-table{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 20px 0;
+}
+.util-table a{
+    margin: 20px 0;
+}
+
+.table-movie{
+    background-color: white;
+    box-shadow: 0 2px 8px 0 black;
+
+}
+.table-movie-all{
+    margin-bottom: 5rem;
+}
+.table-movie-all table, th, td {
+    border: 1px double black;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.title-movie{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 900;
+}
+
+.input-search{
+    margin: 10px 0;
+}
